@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
-
+  
     <head>
+
+        <!--used a background image of charmander-->
+      <style>
+        body  {
+          background-image: url("https://cdn.wallpapersafari.com/0/36/T0F4Eh.jpg");
+          background-color: "orange";
+        }
+        </style>
 
         <title>Pokemon: Gotta catch 'em all!</title>
     </head>
@@ -12,7 +20,7 @@
             Pokemon Company as part of the Pokemon media
             franchise.
         </p>
-
+ <!-- Ordered list of the pokemon types-->
         <ol> 
             <li>Normal</li>
             <li>Fire</li>
@@ -20,37 +28,61 @@
             <li>Grass</li>
             <li>Ground</li>
         </ol>
-
+ <!--Unordered list of pokemon pokemon -->
         <ul>
-            <li><b>Squirtle</b></li>
-            <li><Charmander</li>
+            <li>Squirtle</li>
+            <li>Charmander</li>
             <li>Bulbasaur</li>
         </ul>
+  <!--Table for the list of pokemon and their types-->
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-        <table style="width:100%">
-            <tr>
-              <th>Name</th>
-              <th>Type</th> 
-            </tr>
-            <tr>
-              <td>Squirtle</td>
-              <td>Charmander</td>
-              <td>Bulbasaur</td>
-            </tr>
-            <tr>
-              <td>Water</td>
-              <td>Fire</td>
-            </tr>
-            
-            
-          </table>
-          
-          </body>
-          </html>
-        
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
-        </table>
-        
-    </body>
+tr:nth-child(even) {
+  background-color: "orange";
+}
+</style>
 
-</html>
+<h2>Pokemon Table</h2>
+
+<table>
+  <tr>
+    <th>Pokemon</th>
+    <th>Types</th>
+    
+  </tr>
+  <tr>
+    
+    <td>Eevee</td>
+    <td>Normal</td>
+  </tr>
+  <tr>
+    <td>Charmander</td>
+    <td>Fire</td>
+  </tr>
+  <tr>
+    <td>Squirtle</td>
+    <td>Water</td>
+  </tr>
+  <tr>
+    <td>Bulbasaur</td>
+    <td>Grass</td>
+  </tr>
+  <tr>
+    <td>Diglett</td>
+    <td>Ground</td>
+  </tr>
+
+</table>
+
+</body>
